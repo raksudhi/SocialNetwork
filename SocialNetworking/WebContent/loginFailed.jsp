@@ -44,7 +44,7 @@
 	<c:out value = "${message}" />
 	</c:if>
 		 
-	<p><a class="btn btn-primary btn-lg" href="/index.html" role="button">Back to Login</a></p>
+	<p><a class="btn btn-primary btn-lg" href="index.html" role="button">Back to Login</a></p>
 	<!--  <p>${prodInformation}</p> -->
 	</div>
 	
