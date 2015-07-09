@@ -20,5 +20,39 @@
 </head>
 <body>
 
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+<br />
+<br />
+<br />
+
+	    <div class="jumbotron">
+		<h1>InfyChat Users</h1>
+		</div>
+		<br />
+		  
+		<c:forEach var = "user" items = "${userList}">
+			<a href = 'getUserInformation?userid=" +userInfo.getuserid()+"'><c:out value = "${user.nickname}" /></a>
+			
+				
+		</c:forEach>
+		  
+		  
+
 </body>
 </html>
