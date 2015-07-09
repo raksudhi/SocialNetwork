@@ -47,7 +47,7 @@
 		<br />
 		  
 		<c:forEach var = "user" items = "${userList}">
-			<a href = 'getUserInformation?userid=" +userInfo.getuserid()+"'><c:out value = "${user.nickname}" /></a>
+			<a href = "UserInformation?userid=${user.userid}"><c:out value = "${user.nickname}" /></a>
 			
 				
 		</c:forEach>
