@@ -49,7 +49,7 @@ public class SocialNetworkDB
 		}
 		finally
 		{
-			em.close();
+			em.close(); 
 		}
 	}
 	
