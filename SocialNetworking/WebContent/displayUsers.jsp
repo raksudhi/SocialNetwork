@@ -49,9 +49,14 @@
 		</div>
 		<br />
 		  
+		<div>
+		
+		<span class="names" ><b><u>User Names:</u></b></span><br>
 		<c:forEach var = "user" items = "${userList}">
-			<a href = "UserInformation?userid=${user.userid}"><c:out value = "${user.nickname}" /></a>		
+			<a class="names" href = "<c:out value = 'UserInformation?userid=${user.userid}'/>"><c:out value = "${user.nickname}"/></a><br>		
 		</c:forEach>
+		
+		</div>
 		  
 		  
 
